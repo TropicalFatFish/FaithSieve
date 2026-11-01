@@ -1,0 +1,24 @@
+{
+  "created_at_beijing": "2026-05-11T22:41:24+08:00",
+  "record_count": 200,
+  "fields": [
+    "id",
+    "problem",
+    "steps",
+    "first_error_step"
+  ],
+  "label_semantics": "first_error_step is either the string correct or a 1-based integer first-error step.",
+  "files": {
+    "data": "data/test.jsonl",
+    "readme": "README.md",
+    "requirements": "BENCHMARK_FORMALIZATION_REQUIREMENTS.md"
+  },
+  "subject_counts": {
+    "Topology": 20,
+    "LinearAlgebra": 40,
+    "AbstractAlgebra": 40,
+    "RealAnalysis": 50,
+    "ConvexAnalysis": 30,
+    "ConvexOptimization": 20
+  }
+}

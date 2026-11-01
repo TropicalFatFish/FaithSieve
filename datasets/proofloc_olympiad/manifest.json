@@ -1,0 +1,23 @@
+{
+  "created_at_beijing": "2026-05-11T21:56:43+08:00",
+  "record_count": 350,
+  "fields": [
+    "id",
+    "problem",
+    "steps",
+    "first_error_step"
+  ],
+  "label_semantics": "first_error_step is either the string correct or a 1-based integer first-error step.",
+  "files": {
+    "data": "data/test.jsonl",
+    "readme": "README.md",
+    "requirements": "BENCHMARK_FORMALIZATION_REQUIREMENTS.md"
+  },
+  "version": "paper-20260502",
+  "updated_on": "2026-11-02",
+  "label_counts": {
+    "incorrect": 197,
+    "correct": 153
+  },
+  "sha256": "29b7fd8765d7f0817b813e9b3d2fc6e900286b995010ae73430e6f268757cc38"
+}
